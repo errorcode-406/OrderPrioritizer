@@ -1,0 +1,12 @@
+# Java build
+/build/
+/dist/
+*.class
+*.log
+
+# NetBeans
+/nbproject/private/
+/nbproject/build-impl.xml
+
+# Maven
+/target/
