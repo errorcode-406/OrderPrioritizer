@@ -19,11 +19,11 @@ jobs:
 
       - name: Build EXE
         run: |
-          jpackage ^
-            --type exe ^
-            --name OrderPrioritizer ^
-            --input dist ^
-            --main-jar OrderPrioritizer.jar ^
+          jpackage `
+            --type exe `
+            --name OrderPrioritizer `
+            --input dist `
+            --main-jar OrderPrioritizer.jar `
             --main-class com.orderprioritizer.Main
 
       - name: Upload EXE
